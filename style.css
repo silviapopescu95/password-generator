@@ -1,15 +1,42 @@
-.content{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: aliceblue;
+body{
+    background-color: blue;
+    color: white;
+    display: inline;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: black;
     padding: 20px;
-    width: 100%;
+    border-radius: 1;
+    border: 5px blue;
+    align-items: center;
+    justify-content: center;
 }
 
-#display{
-    width: 100%;
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
-#slider{
-    width: 100%;
+.displayPassword{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    border-radius: 0.5;
+}
+
+.generateButton{
+    grid-column: span 2;
+    color: black;
+    padding: 5px;
+    border-radius: 1; 
 }
